@@ -31,15 +31,15 @@ do {
     }
 
     if (userInput == "rock" && computer == "paper"){
-        alert("Compuer wins");
+        alert("Computer wins");
     }
 
     if (userInput == "paper" && computer == "scissors"){
-        alert("Compuer wins");
+        alert("Computer wins");
     }
 
     if (userInput == "scissors" && computer == "rock"){
-        alert("Compuer wins");
+        alert("Computer wins");
     }
 
     if (userInput == "rock" && computer == "scissors"){
