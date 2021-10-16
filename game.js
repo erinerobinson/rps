@@ -31,27 +31,27 @@ do {
     }
 
     if (userInput == "rock" && computer == "paper"){
-        alert("Computer wins");
+        alert("Computer chose paper, Computer wins");
     }
 
     if (userInput == "paper" && computer == "scissors"){
-        alert("Computer wins");
+        alert("Computer chose scissors, Computer wins");
     }
 
     if (userInput == "scissors" && computer == "rock"){
-        alert("Computer wins");
+        alert("Computer chose rock, Computer wins");
     }
 
     if (userInput == "rock" && computer == "scissors"){
-        alert("player wins");
+        alert("Computer chose scissors, player wins");
     }
 
     if (userInput == "paper" && computer == "rock"){
-        alert("player wins");
+        alert("Computer chose rock, player wins");
     }
 
     if (userInput == "scissors" && computer == "paper"){
-        alert("player wins");
+        alert("Computer chose paper, player wins");
     }
 
     var yesno= prompt("Continue?");
