@@ -2,13 +2,14 @@
 do {
     var userInput = prompt("Rock, paper, scissors?");
 
-    var player = userInput.toLowerCase();
+    var userInput = userInput.toLowerCase();
     
     while(!((userInput == "rock") || (userInput == "paper") || userInput == ("scissors"))){
         alert("Please input valid answer");
         var userInput = prompt("Rock, paper, scissors?");
-        var player = userInput.toLowerCase();
+        var userInput = userInput.toLowerCase();
     }
+
 
     var random = Math.floor(Math.random()*3);
 
